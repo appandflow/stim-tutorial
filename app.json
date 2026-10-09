@@ -11,6 +11,9 @@
     },
     "android": {
       "package": "dev.stim.tutorial"
+    },
+    "extra": {
+      "stimTutorial": 2
     }
   }
 }

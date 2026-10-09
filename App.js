@@ -5,7 +5,7 @@ import { backgroundColor, titleColor } from './theme';
 
 export default function App() {
   useEffect(() => {
-    console.log(`[stim:tutorial] title color=${titleColor} background=${backgroundColor}`);
+    console.log(`[stim:tutorial] started title=${titleColor} background=${backgroundColor}`);
   }, []);
 
   return (

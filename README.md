@@ -15,6 +15,10 @@ npx stim logs
 
 If `stim` is installed globally, drop `npx`. The Android version is `stim android`. Stop with `stim stop`.
 
+## Tutorial pull requests
+
+The last tutorial step can open a pull request to this repo with a screenshot at `finish/<github-login>.png`. A workflow (`.github/workflows/tutorial-finish.yml`) comments, adds the `tutorial-finish` label and closes the PR without merging. It uses `pull_request_target` and only calls the GitHub API; it never checks out or runs the PR's code.
+
 ## License
 
 MIT
