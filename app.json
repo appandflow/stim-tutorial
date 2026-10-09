@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Stim Tutorial",
+    "slug": "stim-tutorial",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.stim.tutorial"
+    },
+    "android": {
+      "package": "dev.stim.tutorial"
+    }
+  }
+}
