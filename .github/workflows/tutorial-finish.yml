@@ -22,7 +22,7 @@ jobs:
               owner,
               repo,
               issue_number,
-              body: `Nice change, @${login}! Thanks for trying Stim. This repo is the Stim tutorial app, so we close tutorial PRs automatically. See you in your next worktree.`,
+              body: `Nice change, @${login}! Thanks for trying Stim. This repo is the Stim tutorial app, so we close tutorial PRs automatically. See you in your next worktree.\n\nIf Stim saved you some time, a ⭐ on [appandflow/stim](https://github.com/appandflow/stim) would make our day.`,
             });
             await github.rest.issues.addLabels({ owner, repo, issue_number, labels: ['tutorial-finish'] });
             await github.rest.pulls.update({ owner, repo, pull_number: issue_number, state: 'closed' });
