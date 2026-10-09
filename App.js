@@ -3,9 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { backgroundColor, titleColor } from './theme';
 
+if (__DEV__) console.info('[stim:readiness] pending');
+
 export default function App() {
   useEffect(() => {
     console.log(`[stim:tutorial] started title=${titleColor} background=${backgroundColor}`);
+    if (__DEV__) console.info('[stim:readiness] ready');
   }, []);
 
   return (
