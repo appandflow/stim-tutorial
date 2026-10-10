@@ -17,7 +17,7 @@ If `stim` is installed globally, drop `npx`. The Android version is `stim androi
 
 ## Tutorial pull requests
 
-The last tutorial step can open a pull request to this repo with a screenshot at `finish/<github-login>.png`. A workflow (`.github/workflows/tutorial-finish.yml`) comments, adds the `tutorial-finish` label and closes the PR without merging. It uses `pull_request_target` and only calls the GitHub API; it never checks out or runs the PR's code.
+The optional share step can open a pull request to this repo with before and after screenshots of your change, following `.github/pull_request_template.md` (older Stim versions commit one screenshot at `finish/<github-login>.png`). A workflow (`.github/workflows/tutorial-finish.yml`) comments, adds the `tutorial-finish` label and closes the PR without merging. It uses `pull_request_target` and only calls the GitHub API; it never checks out or runs the PR's code.
 
 ## License
 
