@@ -1,11 +1,11 @@
-<!-- Screenshots: `gh pr create --body-file <body> --attach screenshots/before.png --attach screenshots/after.png`
+<!-- Screenshots: `gh pr create --body-file <body> --attach .expo/screenshots/before.png --attach .expo/screenshots/after.png`
 uploads both and rewrites the links below. In the browser, drag each image into its cell instead. -->
 
 <!-- One line: what changed and why. -->
 
 | Before | After |
 | --- | --- |
-| ![Before](./screenshots/before.png) | ![After](./screenshots/after.png) |
+| ![Before](./.expo/screenshots/before.png) | ![After](./.expo/screenshots/after.png) |
 
 ### How it was verified
 
