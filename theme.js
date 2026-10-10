@@ -1,2 +1,2 @@
-export const titleColor = '#1f2937';
+export const titleColor = '#7c3aed';
 export const backgroundColor = '#ffffff';
